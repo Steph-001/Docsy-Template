@@ -41,6 +41,14 @@ module:
   #     target: static
   #     path: github.com/google/docsy
 
+  #--- taxonomies ___#
+
+taxonomies:
+  unit: "units"
+  tag: "tags"
+  category: "categories"
+  skill: "skills"
+
   # --- Section to allow raw html within md pages since I trust my own content ---
 markup:
   goldmark:
